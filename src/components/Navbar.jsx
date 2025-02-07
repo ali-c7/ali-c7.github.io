@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedin, github } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -49,19 +49,51 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
+        <div className='flex gap-5 items-center'>
+          {/* LinkedIn Link */}
+          <a 
+            href="https://www.linkedin.com/in/nachaudhry/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='flex items-center gap-2'
+          >
+            <img src={linkedin} alt='linkedin' className='w-9 h-9 object-contain' />
+          </a>
+
+          {/* GitHub Link */}
+          <a 
+            href="https://github.com/ali-c7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='flex items-center gap-2'
+          >
+            <img src={github} alt='github' className='w-9 h-9 object-contain' />
+          </a>
+
+          {/* Resume Download */}
+          <a 
+            href="/AliChaudhryResume2025.pdf"
+            download
+            className='bg-[#915EFF] py-2 px-4 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+          >
+            Resume
+          </a>
+
+          {/* Existing Navigation Links */}
+          <ul className='list-none hidden sm:flex flex-row gap-10'>
+            {navLinks.map((link) => (
+              <li
+                key={link.id}
+                className={`${
+                  active === link.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(link.title)}
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img

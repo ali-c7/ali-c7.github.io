@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.png";
 
 import csharp from "./tech/csharp.png";
 import matlab from "./tech/matlab.png";
@@ -25,6 +26,7 @@ import uwaterloo from "./company/uwaterloo.png";
 import shopify from "./company/uwaterloo.png";
 import rocscience from "./company/rocscience.png";
 import associated from "./company/associated.png";
+import loadpro from "./company/loadpro.png";
 
 import structuralapp from "./structuralapp.png";
 import chatbot from "./chatbot.png";
@@ -55,8 +57,10 @@ export {
   uwaterloo,
   shopify,
   rocscience,
+  loadpro,
   associated,
   structuralapp,
   chatbot,
   facial_recognition,
+  linkedin,
 };

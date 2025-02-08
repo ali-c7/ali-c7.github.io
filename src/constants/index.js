@@ -4,6 +4,8 @@ import {
   creator,
   web,
   pytorch,
+  openai,
+  mongodb,
   sklearn,
   azuredevops,
   cplusplus,
@@ -88,6 +90,10 @@ const technologies = [
   {
     name: "pytorch",
     icon: pytorch,
+  },
+  {
+    name: "mongodb",
+    icon: mongodb,
   },
   {
     name: "docker",

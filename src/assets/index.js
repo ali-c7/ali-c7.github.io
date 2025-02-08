@@ -21,6 +21,8 @@ import azuredevops from "./tech/azuredevops.png";
 import kubernetes from "./tech/kubernetes.png";
 import docker from "./tech/docker.png";
 import pytorch from "./tech/pytorch.png";
+import mongodb from "./tech/mongodb.png";
+import openai from "./tech/openai.png";
 
 import uwaterloo from "./company/uwaterloo.png";
 import shopify from "./company/uwaterloo.png";
@@ -54,6 +56,8 @@ export {
   kubernetes,
   docker,
   pytorch,
+  openai,
+  mongodb,
   uwaterloo,
   shopify,
   rocscience,

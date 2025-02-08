@@ -14,7 +14,7 @@ import tensorflow from "./tech/tensorflow.png";
 import git from "./tech/git.png";
 import python from "./tech/python.png";
 import cplusplus from "./tech/cplusplus.png";
-import keras from "./tech/keras.png";
+import streamlit from "./tech/streamlit.png";
 import sklearn from "./tech/sklearn.png";
 import reactjs from "./tech/reactjs.png";
 import azuredevops from "./tech/azuredevops.png";
@@ -49,7 +49,7 @@ export {
   git,
   python,
   cplusplus,
-  keras,
+  streamlit,
   sklearn,
   reactjs,
   azuredevops,

@@ -15,7 +15,7 @@ import {
   matlab,
   kubernetes,
   git,
-  keras,
+  streamlit,
   docker,
   rocscience,
   loadpro,
@@ -76,10 +76,6 @@ const technologies = [
     icon: python,
   },
   {
-    name: "Azure DevOps",
-    icon: azuredevops,
-  },
-  {
     name: "scikit-learn",
     icon: sklearn,
   },
@@ -112,9 +108,13 @@ const technologies = [
     icon: git,
   },
   {
-    name: "keras",
-    icon: keras,
+    name: "openai",
+    icon: openai,
   },
+  {
+    name: "streamlit",
+    icon: streamlit,
+  }
 ];
 
 const experiences = [

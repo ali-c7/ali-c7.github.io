@@ -72,7 +72,7 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           The following projects highlight my work, demonstrating my skills and experience through real-world applications.
-          Click on a project card to explore the website or view the code repository.
+          Click on a project card to explore the apps!
         </motion.p>
       </div>
 
@@ -85,4 +85,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

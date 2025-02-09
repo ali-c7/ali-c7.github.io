@@ -38,6 +38,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -162,7 +166,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2021",
     points: [
-      "Enhanced the lab’s research portfolio through a high-impact, National Research Council-funded publication that studied predictive pavement modeling for infrastructure planning",
+      "Enhanced the lab's research portfolio through a high-impact, National Research Council-funded publication that studied predictive pavement modeling for infrastructure planning",
       "Assisted in the development and implementation of machine learning algorithms trained from 25+ years of pavement data with methods including linear regression, random forests, support vector machine, and Artificial Neural Networks (ANNs) to predict long-term pavement performance",
       "Performed hyperparameter tuning and feature engineering within the Scikit-learn library  to achieve a model accuracy of R2 = 0.95"
     ],
@@ -186,7 +190,7 @@ const projects = [
   {
     name: "2D Structural Analysis Web App",
     description:
-      "Designed, developed, and launched a standalone web application using Streamlit, leveraging OOP principles to perform structural analysis calculations and interactive visualizations on 2D frames",
+      "Developed and launched a standalone web application using Streamlit, leveraging OOP principles to perform structural analysis calculations and interactive visualizations on 2D frames. Implemented user authentication and file storage to enable secure access and persistent project management.",
     tags: [
       {
         name: "streamlit",
@@ -205,9 +209,9 @@ const projects = [
     source_code_link: "https://share.streamlit.io/app/loadpro/",
   },
   {
-    name: "Virtual Chatbot Assistant for Medical Office",
+    name: "Virtual Chatbot Assistant for Medical Clinic",
     description:
-      "Created a Retrieval-Augmented Generation (RAG) chatbot trained on a podiatry clinic's website data to enhance customer service and improve patient care.",
+      "Developed a Retrieval-Augmented Generation (RAG) chatbot using NLP and vector embeddings, trained on a podiatry clinic's website data. Designed to enhance customer service by providing accurate, context-aware responses for improved patient care.",
     tags: [
       {
         name: "RAG, LLMs",
@@ -228,10 +232,10 @@ const projects = [
   {
     name: "Facial Expression Recognition Model",
     description:
-      "Built a TensorFlow Convoluted Neural Network (CNN) to predict facial expressions, importing and preprocessing a labeled dataset with resizing and feature extraction to enhance model performance",
+      "Trained a TensorFlow CNN on the FER-2013 facial expression dataset using Google Colab and cloud GPUs for efficient processing. Preprocessed images with resizing and feature extraction to enhance model performance, then deployed the trained model for real-time emotion prediction.",
     tags: [
       {
-        name: "tensorflow, keras",
+        name: "tensorflow",
         color: "blue-text-gradient",
       },
       {
@@ -239,12 +243,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "matplotlib",
+        name: "google colab",
         color: "pink-text-gradient",
       },
     ],
     image: facial_recognition,
-    source_code_link: "https://github.com/ali-c7",
+    source_code_link: "https://facial-expression-recognition-model.streamlit.app/",
   },
 ];
 

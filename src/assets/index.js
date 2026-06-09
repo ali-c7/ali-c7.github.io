@@ -23,6 +23,8 @@ import docker from "./tech/docker.png";
 import pytorch from "./tech/pytorch.png";
 import mongodb from "./tech/mongodb.png";
 import openai from "./tech/openai.png";
+import claude from "./tech/claude.svg";
+import cursor from "./tech/cursor.svg";
 
 import uwaterloo from "./company/uwaterloo.png";
 import shopify from "./company/uwaterloo.png";
@@ -33,6 +35,13 @@ import loadpro from "./company/loadpro.png";
 import structuralapp from "./structuralapp.png";
 import chatbot from "./chatbot.png";
 import facial_recognition from "./facial_recognition.png";
+import loadpro_preview from "./loadpro_preview.png";
+import synq_preview from "./synq_preview.png";
+import helicalpile from "./helicalpile.png";
+import cptsimulations from "./cptsimulations.png";
+import dynamiccompaction from "./dynamiccompaction.png";
+import mohrscircle from "./mohrscircle.png";
+import gameproject from "./gameproject.png";
 
 export {
   logo,
@@ -57,6 +66,8 @@ export {
   docker,
   pytorch,
   openai,
+  claude,
+  cursor,
   mongodb,
   uwaterloo,
   shopify,
@@ -67,4 +78,11 @@ export {
   chatbot,
   facial_recognition,
   linkedin,
+  loadpro_preview,
+  synq_preview,
+  helicalpile,
+  cptsimulations,
+  dynamiccompaction,
+  mohrscircle,
+  gameproject,
 };

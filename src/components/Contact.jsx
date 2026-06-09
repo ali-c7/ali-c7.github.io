@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import AnimatedTitle from "./AnimatedTitle";
 
 const Contact = () => {
   const formRef = useRef();
@@ -76,7 +77,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <AnimatedTitle text="Contact" className={styles.sectionHeadText} />
 
         <form
           ref={formRef}

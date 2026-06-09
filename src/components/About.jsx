@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import AnimatedTitle from "./AnimatedTitle";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -40,14 +41,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
+      <AnimatedTitle text="Overview" className={styles.sectionHeadText} />
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a software developer with a strong background in engineering and expertise in machine learning, TensorFlow, and data-driven problem-solving. My experience includes developing efficient, scalable solutions for real-world challenges, with a focus on AI-powered applications and predictive modeling. I thrive on bridging the gap between theory and implementation, delivering impactful, user-centric software. 
+        I'm a software developer and interdisciplinary engineer bridging geotechnical software, structural analysis, and AI. I lead development on Rocscience's Settle3 and RSPile, founded LoadPro.io for automated structural calculations, and build AI-powered tools with Claude, Cursor, and modern ML frameworks. I thrive on turning complex engineering theory into production-grade, user-centric software. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

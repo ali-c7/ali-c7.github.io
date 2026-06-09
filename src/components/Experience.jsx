@@ -11,6 +11,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import AnimatedTitle from "./AnimatedTitle";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -63,10 +64,8 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
       </motion.div>
+      <AnimatedTitle text="Work Experience" className={`${styles.sectionHeadText} text-center`} />
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>

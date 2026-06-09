@@ -75,6 +75,34 @@ export const slideIn = (direction, type, delay, duration) => {
   };
 };
 
+export const wordContainer = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.12,
+      delayChildren: 0.04,
+    },
+  },
+};
+
+export const wordChild = {
+  hidden: {
+    y: 20,
+    opacity: 0,
+    filter: "blur(8px)",
+  },
+  show: {
+    y: 0,
+    opacity: 1,
+    filter: "blur(0px)",
+    transition: {
+      type: "tween",
+      duration: 0.5,
+      ease: [0.25, 0.1, 0.25, 1],
+    },
+  },
+};
+
 export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
     hidden: {},
